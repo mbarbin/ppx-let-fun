@@ -15,9 +15,9 @@ depends: [
   "dune" {>= "3.11" & >= "3.11"}
   "base" {>= "v0.16" & < "v0.17"}
   "expect_test_helpers_core" {with-test & >= "v0.16" & < "v0.17"}
-  "tilde_f"
   "ppx_jane" {with-test & >= "v0.16" & < "v0.17"}
   "ppxlib" {>= "0.31.0"}
+  "tilde_f" {with-test & >= "v0.16" & < "v0.17"}
   "odoc" {with-doc}
 ]
 build: [
