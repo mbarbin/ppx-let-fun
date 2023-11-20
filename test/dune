@@ -1,5 +1,5 @@
 (library
- (name error_log_test)
+ (name ppx_let_fun_test)
  (flags
   :standard
   -w
