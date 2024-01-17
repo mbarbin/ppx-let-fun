@@ -19,8 +19,6 @@
  (name ppx-let-fun)
  (synopsis
   "Allowing let-binding for functions whose last argument is a closure")
- (description
-  "Allowing let-binding for functions whose last argument is a closure")
  (depends
   (ocaml
    (>= 5.1))
