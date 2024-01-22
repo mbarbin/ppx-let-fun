@@ -9,7 +9,7 @@ homepage: "https://github.com/mbarbin/ppx-let-fun"
 doc: "https://mbarbin.github.io/ppx-let-fun/"
 bug-reports: "https://github.com/mbarbin/ppx-let-fun/issues"
 depends: [
-  "dune" {>= "3.12"}
+  "dune" {>= "3.13"}
   "ocaml" {>= "5.1"}
   "base" {>= "v0.16" & < "v0.17"}
   "expect_test_helpers_core" {with-test & >= "v0.16" & < "v0.17"}
