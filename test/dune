@@ -13,4 +13,4 @@
  (libraries base expect_test_helpers_core.expect_test_helpers_base tilde_f)
  (inline_tests)
  (preprocess
-  (pps ppx_jane ppx-let-fun)))
+  (pps ppx_expect ppx_here ppx_let ppx_sexp_conv ppx_sexp_value ppx-let-fun)))

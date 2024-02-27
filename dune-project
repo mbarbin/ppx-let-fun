@@ -31,7 +31,27 @@
     :with-test
     (>= v0.16)
     (< v0.17)))
-  (ppx_jane
+  (ppx_expect
+   (and
+    :with-test
+    (>= v0.16)
+    (< v0.17)))
+  (ppx_here
+   (and
+    :with-test
+    (>= v0.16)
+    (< v0.17)))
+  (ppx_let
+   (and
+    :with-test
+    (>= v0.16)
+    (< v0.17)))
+  (ppx_sexp_conv
+   (and
+    :with-test
+    (>= v0.16)
+    (< v0.17)))
+  (ppx_sexp_value
    (and
     :with-test
     (>= v0.16)
