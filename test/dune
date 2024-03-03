@@ -9,8 +9,8 @@
   -open
   Base
   -open
-  Expect_test_helpers_base)
- (libraries base expect_test_helpers_core.expect_test_helpers_base tilde_f)
+  Expect_test_helpers)
+ (libraries base expect-test-helpers tilde_f)
  (inline_tests)
  (preprocess
   (pps ppx_expect ppx_here ppx_let ppx_sexp_conv ppx_sexp_value ppx-let-fun)))

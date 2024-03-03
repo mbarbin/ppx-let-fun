@@ -26,7 +26,7 @@
    (and
     (>= v0.16)
     (< v0.17)))
-  (expect_test_helpers_core
+  (expect-test-helpers
    (and
     :with-test
     (>= v0.16)
