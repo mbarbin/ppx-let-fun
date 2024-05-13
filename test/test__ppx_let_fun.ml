@@ -182,3 +182,5 @@ let%expect_test "let&-" =
   let&- x = Resource.with_t_f in
   Resource.ignore x
 ;;
+
+(* Made it as a standlone library here: {https://github.com/mbarbin/letfun} *)
