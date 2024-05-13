@@ -165,3 +165,20 @@ let%expect_test "let%fun.g" =
 ;;
 
 (* That's sort of ugly. TBD, this is only an experiment. *)
+
+(* Another idea to explore: use of let-binding operators. This in similar to
+   using the let-syntax, perhaps I will switch to this after all. *)
+
+let ( let& ) x f = x f
+
+let%expect_test "let&" =
+  let& x = Resource.with_t in
+  Resource.ignore x
+;;
+
+let ( let&- ) x f = x ~f
+
+let%expect_test "let&-" =
+  let&- x = Resource.with_t_f in
+  Resource.ignore x
+;;
